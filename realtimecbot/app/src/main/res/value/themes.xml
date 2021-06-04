@@ -1,0 +1,25 @@
+resources xmlnstools=httpschemas.android.comtools
+    !-- Base application theme. --
+    style name=Theme.Realtimechatappexample parent=Theme.MaterialComponents.DayNight.DarkActionBar
+        !-- Primary brand color. --
+        item name=colorPrimary@coloroneColoritem
+        item name=colorPrimaryVariant@coloroneColoritem
+        item name=colorOnPrimary@colorwhiteitem
+        !-- Secondary brand color. --
+        item name=colorSecondary@colortwoColoritem
+        item name=colorSecondaryVariant@colorthreeColoritem
+        item name=colorOnSecondary@colorblackitem
+        !-- Status bar color. --
+        item name=androidstatusBarColor toolstargetApi=lattrcolorPrimaryVariantitem
+        !-- Customize your theme here. --
+    style
+
+    style name=Theme.Realtimechatappexample.NoActionBar
+        item name=windowActionBarfalseitem
+        item name=windowNoTitletrueitem
+    style
+
+    style name=Theme.Realtimechatappexample.AppBarOverlay parent=ThemeOverlay.AppCompat.Dark.ActionBar 
+
+    style name=Theme.Realtimechatappexample.PopupOverlay parent=ThemeOverlay.AppCompat.Light 
+resources
